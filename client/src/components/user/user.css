@@ -1,0 +1,37 @@
+.img-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img-upload__img-wrapper {
+  flex-shrink: 0;
+}
+
+.img-upload__img-wrapper img {
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.img-upload__img-wrapper div {
+  height: 80px;
+  width: 80px;
+  background: #9333ea;
+  border-radius: 50%;
+}
+
+.img-upload__btn {
+  display: block;
+}
+
+.img-upload__btn input {
+  padding: 8px 16px;
+  background: #f5f3ff;
+  color: #4338ca;
+}
+.img-upload__btn input:hover {
+  background: #ede9fe;
+}
